@@ -22,3 +22,4 @@ sudo apt-get install -qy curl git jq gcc g++ nodejs make build-essential docker.
 export GOROOT=/root/go
 export GOPATH=/root/gopath
 export PATH=$GOROOT/bin:$PATH
+export GOPROXY=https://goproxy.io,direct
